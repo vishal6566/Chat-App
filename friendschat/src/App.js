@@ -1,10 +1,17 @@
 
 import './App.css';
+import {Routes,Route} from "react-router-dom"
+import Join from "./components/Join/Join";
+
 
 function App() {
+
   return (
     <div className="App">
-   <h1>working</h1>
+  <Routes>
+    <Route path="/" element={<Join />}></Route>
+    <Route path="/chat" ></Route>
+  </Routes>
     </div>
   );
 }
