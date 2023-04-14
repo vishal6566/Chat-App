@@ -11,7 +11,7 @@ const sendUser=()=>{
 const Join = () => {
  
   const [name,setName] = useState("")
-console.log(name)
+
  
   return (
     <div className='JoinPage'>

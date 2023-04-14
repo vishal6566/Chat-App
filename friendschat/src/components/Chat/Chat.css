@@ -10,7 +10,6 @@
     background-color: white;
     height: 60%;
     width: 50%;
-    box-sizing: border-box;
 }
 .header{
     background-color: crimson;
@@ -21,6 +20,7 @@
     border: 0.2vmax solid black;
     height :70%;
     box-sizing: border-box;
+  
 }
 .inputBox{
    
@@ -35,6 +35,8 @@
     padding: 2vmax;
     box-sizing: border-box;
     outline: none;
+    font-size: 1.2vmax;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   
 }
 .sendBtn{
@@ -47,4 +49,14 @@
 }
 .sendBtn:hover{
     background-color: rgb(109, 5, 26);
+}
+
+.sendBtn>img{
+    width: 2.6vmax;
+    filter:brightness(100) invert();
+    transition: all 0.3s;
+}
+
+.sendBtn:hover img{
+    transform: translateX(10px);
 }
